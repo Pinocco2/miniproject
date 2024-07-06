@@ -1,0 +1,29 @@
+@media (max-width: 1110px) {
+    .container__line{
+        width: 800px!important;
+    }
+}
+@media (max-width: 800px) {
+    .container__line{
+        width: 600px!important;
+    }
+}
+@media (max-width: 600px) {
+    .container__line{
+        width: 498px!important;
+    }
+}
+@media (max-width: 530px) {
+    .container__line{
+        width: 350px!important;
+    }
+    .container__newsletter--box{
+        max-width: 335px;
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+    }
+    .container__newsletter--box--button{
+        border-radius: 30px!important;
+    }
+}
