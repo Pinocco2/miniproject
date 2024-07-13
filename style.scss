@@ -35,6 +35,7 @@ main {
     
         }
         & .container__newsletter--box{
+            max-width: 489px;
 
             & .container__newsletter--box--text{
                 font-family: Montserrat;
@@ -62,7 +63,6 @@ main {
                 margin-bottom: 20px;
                 color: #999999;
                 transition: all 0.3s ease;
-                padding-left: 15px;
 
             &:focus {
                 outline: none;
